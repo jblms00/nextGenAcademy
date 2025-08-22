@@ -1,0 +1,119 @@
+/* Small devices (landscape phones, 407px and up) */
+@media (max-width: 407px) {
+    .homepage img {
+        height: 200px;
+    }
+
+    .homepage .container .d-flex,
+    .container-video-lecture .d-flex,
+    .container-video-lecture .row.mb-5,
+    .home-section .d-flex,
+    .admin-side .container-fluid .row,
+    .admin-side .page-title {
+        flex-direction: column;
+    }
+
+    .homepage .box-container {
+        padding: 3rem 1rem;
+        width: 100%;
+    }
+
+    /* User */
+    .home-section .btn.btn-primary,
+    .admin-side .container-fluid .col-4 {
+        width: 100%;
+    }
+
+    .home-section {
+        padding: 1rem;
+    }
+
+    .home-section .page-title,
+    .container-video-lecture :last-child,
+    .container-video-lecture .d-flex,
+    .container-video-lecture .row.mb-5,
+    .home-section .d-flex,
+    .home-section .card-title,
+    .forums-main-container h3,
+    .discussion-container {
+        text-align: center;
+    }
+
+    .container-lessons,
+    .container-video-lectures {
+        margin-top: 25px !important;
+        gap: 1rem;
+    }
+
+    .container-lessons .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-video-lectures img {
+        height: 100%;
+    }
+
+    .home-section .col-2 {
+        width: 100%;
+        margin-top: 14px;
+    }
+
+    .container-video-lecture .d-flex a,
+    .container-video-lecture .col-3,
+    .container-3d-models a {
+        width: 100% !important;
+    }
+
+    .home-section .d-flex {
+        gap: 1rem;
+    }
+
+    .home-section h5,
+    .admin-side .page-title button {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    /* Admin */
+    .navbar-toggler {
+        filter: invert(2);
+    }
+
+    .admin-side .page-title {
+        padding: 1.5rem;
+    }
+
+    .admin-side .container-fluid .col-4 .card {
+        padding: 5px;
+    }
+
+    .admin-side .table-container .dt-layout-start .dt-length {
+        text-align: start;
+    }
+
+    .admin-side .dt-search {
+        width: auto;
+    }
+
+    .home-section .card-title {
+        margin-top: 0;
+        border-radius: 5px;
+    }
+
+    .contianer-models .card {
+        width: 300px;
+    }
+
+    .contianer-models .card-body {
+        padding: 10px;
+    }
+
+    .contianer-models .card-title {
+        margin: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
